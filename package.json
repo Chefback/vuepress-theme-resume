@@ -4,7 +4,6 @@
   "description": "编写简洁优雅的markdown简历，由 vuepress 驱动",
   "author": "momoko <ko.momo@qq.com>",
   "license": "MIT",
-  "private": false,
   "main": "index.js",
   "repository": {
     "type": "git",
