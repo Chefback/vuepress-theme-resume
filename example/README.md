@@ -13,19 +13,22 @@
 
 ## 技能描述
 
-- 熟练掌握 JavaScript，理解 this 指向、作用域、闭包、构造函数、事件委托、异步加载等，了解 Typescript，熟悉 ES6 基础语法、箭头函数以及 ES6 模块化语法，了解 Promise 的使用；
-- 熟悉 React 框架，熟悉使用 React、Redux 及 antd UI 库进行开发；
-- 熟悉 Vue 框架，掌握 Vuex、Vue-router 等进行协作开发；
-- 掌握 HTTP/HTTPS 的基本原理，对浏览器原理如垃圾回收机制、浏览器渲染、浏览器缓存等有一定了解；
-- 对前端工程化、模块化、组件化有一定的实践经验，了解 Git 协作开发，分支管理，版本管理；
-- 了解 Node.js，能和前端实现简单数据交互
+- 熟悉 linux 常用命令,如：文件操作、权限管理、进程等
+- 熟悉 c/c++、python 编程语言,了解 stl 常用容器,熟悉面向对象模式
+- 熟悉 mysql 数据库,了解索引、事务、隔离级别 熟悉计算机网络知识,
+- 了解 tcp/udp、http\https 等基本的网络协议
+- 了解 postman,fiddler 软件测试日常工具的使用
+- 熟练 xxx 多种测试技能掌握软件测试基础理论,测试用例编写方法
+- 熟悉自动化测试技术，以及自动测试工具 QTP 的使用；
+- 熟悉性能测试技术，以及性能测试工具 loadrunner 的使用；
+- 了解 postman,fiddler 软件测试日常工具的使用
+- 掌握持续集成工具 Jenkins
 
 ## 项目经验
 
-### Bloom UI 组件库 2023.08 - 至今<span class="role">:&nbsp;项目维护</span><span class="right">2023.08 - 2023.12</span>
+### 基于 Go 的小型异步 RPC 框架 2023.08 - 至今<span class="role">:&nbsp;项目维护</span><span class="right">2023.08 - 2023.12</span>
 
 项目描述
-技术栈：Vue3、TypeScript、Vite、Vitest、VitePress、Rollup、Postcss
 
 - 个人工作:
   - 组件设计与开发：封装实现了包括 Input、Form、Message、MessageBox、Select 在内的组件共计 15+个。
@@ -40,11 +43,14 @@
 - 项目收获：
   - 掌握了 Vue3 新特性和 ts 的基础和进阶用法，如使用 Provide/Inject 进行跨组件通信，以及过渡组件的使用。
   - 熟悉了从基础组件到复杂组件的分析、设计、实现的开发流程
+  - 了解 Postman、Charles、Jira 和 Venus 等软件测试日常工具的使用
+  - 加深对软件测试基础理论和测试流程的了解，增强业务理解能力和代码规范意识
+  - 了解实际项目测试点和潜在风险，学会通过日志分析快速定位 bug 位置，自主排查问题
 
-### Silo：基于 Nextjs 开发的笔记软件客户端 2023.03 - 2023.06<span class="role">:&nbsp;项目维护</span><span class="right">2023.03 - 2023.06</span>
+### MemosTest 灵感收集前后端全链路测试 023.03 - 2023.06<span class="role">:&nbsp;项目维护</span><span class="right">2023.03 - 2023.06</span>
 
-项目描述：该项目以 Nextjs 为基本框架，实现一个现代笔记软件的基本功能，包括
-
+项目描述：该项目对 Memos 开源项目的前后端以及 App 进行测试，实现一个现代笔记软件的基本功能，包括
+项目连接：
 项目概述：Silo 是一个高度定制化的笔记软件客户端，旨在为用户提供跨平台的笔记创建、管理和同步体验。项目利用 Electron 框架实现了跨 Windows、macOS 和 Linux 的兼容性，支持丰富的编辑功能，包括 Markdown 编辑、图像插入、云同步等。
 
 技术栈：Electron, React, Node.js, Redux, SQLite, Markdown
@@ -66,5 +72,6 @@
 
 ## 自我评价
 
-- 自驱力强，热爱前端技术：能够通过博客、书籍、视频等多种渠道获取知识，时刻丰富自己的知识储备；
-- 英文基础好，四六级分数均在 550 分以上，英文文档无障碍阅读.
+- 自驱力强，热爱测试技术：能够通过博客、书籍、视频等多种渠道获取知识，时刻丰富自己的知识储备。
+- 做事认真踏实，能够承受一定的工作压力，有较强执行力。
+- 英文基础好，四六级分数均在 550 分以上，英文文档无障碍阅读。
