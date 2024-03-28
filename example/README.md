@@ -26,7 +26,7 @@
 
 ## 项目经验
 
-### 基于 Go 的小型异步 RPC 框架 2023.08 - 至今<span class="role">:&nbsp;项目维护</span><span class="right">2023.08 - 2023.12</span>
+### database<span class="role">:&nbsp;项目维护</span><span class="right">2023.08 - 2023.12</span>
 
 项目描述
 
@@ -47,7 +47,7 @@
   - 加深对软件测试基础理论和测试流程的了解，增强业务理解能力和代码规范意识
   - 了解实际项目测试点和潜在风险，学会通过日志分析快速定位 bug 位置，自主排查问题
 
-### MemosTest 灵感收集前后端全链路测试 023.03 - 2023.06<span class="role">:&nbsp;项目维护</span><span class="right">2023.03 - 2023.06</span>
+### os <span class="role">:&nbsp;项目维护</span><span class="right">2023.03 - 2023.06</span>
 
 ## 自我评价
 
