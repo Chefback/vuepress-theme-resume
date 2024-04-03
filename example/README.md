@@ -1,6 +1,7 @@
 <h1>
   <span>肖俊杰</span>
   <ul>
+    <li><span>性别</span>男</li>
     <li><span>电话</span>18692620858</li>
     <li><span>微信</span>18692620858</li>
     <li><span>邮箱</span><a href="mailto:will.xiaoj@foxmail.com">will.xiaoj@foxmail.com</a></li>
@@ -26,28 +27,15 @@
 
 ## 项目经验
 
-### 基于 Linux 的轻量 Webserver<span class="role">:&nbsp;独立开发</span><span class="right">2023.08 - 2023.12</span>
+### 基于 LearnOpenGL 的实时渲染器 <span class="role">:&nbsp;独立开发</span><span class="right">2023.08 - 2023.12</span>
 
-项目描述:在 Linux 环境下使用 C++语言开发轻量级 Web 服务器，实现从用户客户端访问服务器上的图片、视频等资源，并支持多用户的并发访问。
-
-- 主要工作
-
-  1. 使用 **Socket** 实现不同主机之间的通信。
-  2. 构建**线程池** threadpool，以提高吞吐量。
-  3. 利用**多线程**的机制，增加并行服务的数量。
-  4. 利用 **epoll** 技术实现 I/O 多路复用，支持 ET 和 LT 两种触发模式，可以同时监听多个请求。
-  5. 使用**有限状态机**高速解析 HTTP 请求报文，对浏览器的 GET/POST 请求进行处理。
-  6. 基于**升序链表**实现定时器,关闭超时的非活动连接。
-  7. 使用 Google Test 框架进行**单元测试**，覆盖了协程模块、Reactor 框架、定时器等
-  8. 使用 **wrk** 进行**压力测试**，对框架的性能进行评估和优化。
-
-- 项目难点
-  - 实现线程池,提高吞吐量。
-  - 编写主从状态机对 HTTP 报文进行解析。
-- 个人收获
-  - 通过项目实践对学过的计网知识有了更深的理解，如 HTTP 的服务过程、TCP 的三次握手等。
-  - 对 Linux 网络编程相关技术如 Socket 通信及 I/O 复用有了一定的理解。
-  - 项目中采用 **Makefile** 进行编译，使用 WebBench 进行压力测试，掌握了新技术。
+- 项目描述:项目基于开源项目 LearnOpenGL，使用 stb image 库读取图像数据、Assimp 库读取模型数据使用 ESGSTL 容器替代标准库容器，实现了大部分常见实时渲染算法。
+- 主要工作:
+  1. 编写并测试了部分常见 Shader，利用 Blin-Phong 光照模型实现模型的基础光照效果，利用模板测试技巧实现模型的描边效果，利用几何着色器可视化模型法线，利用帧缓冲实现画面后处理效果等;
+  2. 实现了部分高级光照效果，包括基于 ShadowMap 的硬阴影，基于 PFC、PCSS 的软阴影的实时阴影效果，基于法线贴图及视差贴图的低精度模型高表面细节效果，基于屏幕空间的环境光遮蔽效果等;
+  3. 基于微表面模型、IBL 环境光照、Kulla-Conty 能量补全后的 Cook-Torrance BRDF 模型及 Split-sum 近似法实现了较好的基于物理渲染(PBR)效果。
+- 主要收获:结合 Opengl 的具体 API，应用并实践了大部分所学的计算机图形学知识，对 shader 的编写以及渲染管线有了更深的理解，通过大量的试错总结了一些图形编程的 DEBUG 技巧。
+- 后续展望:本项日进行了一定程度上的抽象及封装，但实际使用时仍存在大量的代码重复及功能耦合，日前正在学习探索一些有关图形引擎及框架的内容，后期希望将本项目升级为简易的渲染引擎。
 
 ### MIT6.s081 Operating System Engineering Lab<span class="role">:&nbsp;独立开发</span><span class="right">2023.03 - 2023.06</span>
 
