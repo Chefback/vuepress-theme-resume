@@ -23,7 +23,7 @@
 - 熟悉常用的**设计模式**（单例模式、工厂模式等）。
 - 了解**网络编程**，能使用 I/O 复用,epoll 特性进行开发。
 - 熟悉关系型数据库 **MySql**，熟悉 MySql 中的索引、事务、锁机制等，了解非关系型数据库 Redis 使用场景、持久化策略。
-- 掌握**软件测试**理论，了解常用的测试工具 Junit，pytest 等。了解 postman，软件测试日常工具的使用。
+- 了解分布式计算，学习过 mit6.828 课程。
 
 ## 项目经验
 
@@ -48,7 +48,7 @@
   - 对 Linux 网络编程相关技术如 Socket 通信及 I/O 复用有了一定的理解。
   - 项目中采用 **Makefile** 进行编译，使用 **WebBench** 进行压力测试，掌握了新技术。
 
-### MIT6.s081 Operating System Engineering Lab<span class="role">:&nbsp;独立开发</span><span class="right">2023.03 - 2023.06</span>
+### minidb<span class="role">:&nbsp;独立开发</span><span class="right">2023.03 - 2023.06</span>
 
 项目描述:以基于 RISC-V 指令集的 XV6 操作系统为基础，探索操作系统的系统调用、内存管理、文件系统、进程管理、中断机制的底层实现。
 
