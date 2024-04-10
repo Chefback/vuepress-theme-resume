@@ -1,6 +1,8 @@
 <h1>
   <span>肖俊杰</span>
   <ul>
+    <li><span>求职意向</span></li>
+    <li><span>性别</span>男</li>
     <li><span>电话</span>18692620858</li>
     <li><span>微信</span>18692620858</li>
     <li><span>邮箱</span><a href="mailto:will.xiaoj@foxmail.com">will.xiaoj@foxmail.com</a></li>
@@ -10,6 +12,7 @@
 ## 教育经历
 
 本科 湖南工业大学 信息管理 <span class="right">2020.09 - 2024.06</span>
+主修课程：Java 程序设计，C 语言，数据结构和算法，计算机网络
 
 ## 技能描述
 
